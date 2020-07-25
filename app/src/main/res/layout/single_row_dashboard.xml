@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView android:layout_width="match_parent"
+    android:layout_height="140dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:background="@color/DarkOrange"
+    android:layout_margin="6dp"
+    app:cardCornerRadius="4dp"
+
+
+xmlns:android="http://schemas.android.com/apk/res/android" >
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/DarkOrange"
+    android:id="@+id/llContent"
+
+   >
+    <TextView
+        android:id="@+id/txtList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="100dp"
+
+
+android:text="List Item"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@color/MediumVioletRed"/>
+    <ImageView
+        android:id="@+id/imgBook"
+        android:src="@drawable/book"
+
+       android:layout_marginStart="14dp"
+        android:layout_height="150dp"
+        android:layout_width="75dp"
+     />
+    <TextView
+        android:id="@+id/txtAuthor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtList"
+        android:text="Author"
+        android:textSize="10sp"
+        android:layout_marginStart="175dp"
+        android:textColor="@color/Indigo"
+        android:padding="10dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtPrice"
+        android:layout_below="@+id/txtAuthor"
+        android:layout_marginStart="175dp"
+        android:text="Price"
+        android:padding="7dp"
+        android:textSize="15sp"
+        android:textColor="@color/Lime"/>
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:id="@+id/rating"
+           android:text="4.9"
+           android:textSize="13sp"
+           android:textColor="@color/DarkOrchid"
+           android:layout_marginTop="20dp"
+           android:layout_marginStart="350dp"
+           android:drawableLeft="@drawable/ic_ratings"
+
+
+
+           />
+
+
+</RelativeLayout>
+    </androidx.cardview.widget.CardView>
